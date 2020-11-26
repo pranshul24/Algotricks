@@ -1,0 +1,72 @@
+
+// digraph D {
+
+//   node [shape=plaintext]
+
+//   some_node [
+//    label=<
+//      <table border="0" cellborder="1" cellspacing="0">
+//        <tr><td bgcolor="pink">a</td>
+//        <td bgcolor="pink">a</td>
+//        <td bgcolor="yellow">b</td>
+//        <td bgcolor="pink">a</td>
+//        <td bgcolor="yellow">b</td>
+//        <td bgcolor="yellow">b</td>
+//        <td bgcolor="pink">a</td></tr>
+
+//      </table>>
+//   ];
+// label="count=4\npairs=8";
+ 
+
+
+// }
+
+
+// digraph D {
+
+//   1->2;
+//   1->3;
+//   2->4;
+//   2->5;
+//   3->6;
+
+// }
+digraph{
+  label="\n  1--2 and 2--3 is to \nbe traversed once \nand other edges \ntwice";
+   2[label="2",style="filled",color="gold"];
+   1[label="1",style="filled",color="gold"];
+   3[label="3",style="filled",color="gold"];
+   4[label="4"];
+   5[label="5"];
+   6[label="6"];
+
+  1->2[dir=none,label="5",color=red];
+  2->3[dir=none,label="8",color=red];
+  1->6[dir=none,label="7"];
+  2->4[dir=none,label="3"];
+  4->5[dir=none,label="2"];
+  // 3->5[dir=none];
+}
+
+// digraph D {
+
+//   node [shape=plaintext]
+
+//   some_node [
+//    label=<
+//      <table border="0" cellborder="1" cellspacing="0">
+//        <tr><td bgcolor="yellow">1</td>
+//   <td bgcolor="#f0e3ff">5</td>
+//  <td bgcolor="yellow">2</td>
+//  <td bgcolor="#f0e3ff">4</td>
+//  <td bgcolor="yellow">3</td>
+//  <td bgcolor="#f0e3ff">5</td>
+//  <td bgcolor="yellow">4</td></tr>
+
+//      </table>>
+//   ];
+ 
+
+
+// }

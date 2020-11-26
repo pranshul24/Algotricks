@@ -1,0 +1,22 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+ }
+
+.footer {
+  background-color: #6e8691;
+  margin: 0px auto;
+  padding: 50px 0px; }
+
+
+body {
+  font-family: 'Actor';
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #37474f; }
+
